@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A look at our Intel 16 nm BERT accelerator, built for USC’s Advanced Chip Design and Tapeout class.">
+  <meta name="theme-color" content="#f7f5ef">
+  <title>My first tapeout | Paul Chen</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header wrap">
+  <a class="site-name" href="../index.html" aria-label="Paul Chen home">Paul Chen</a>
+  <nav aria-label="Main navigation">
+    <a href="../index.html" >Home</a>
+    <a href="../about.html">About Me</a>
+    <a href="../publications.html">Publications</a>
+    <a href="../posts.html" aria-current="page">Posts</a>
+  </nav>
+</header>
+<!-- COPY THIS FILE to posts/my-first-tapeout.html. See templates/README.md. -->
+<main id="main" class="wrap post-main">
+  <!-- Remove this draft notice before publishing. -->
+  <aside class="draft-notice" aria-label="Template notice">Template draft · Add your image and publication date before publishing.</aside>
+  <article class="post-article" aria-labelledby="post-title">
+    <header class="post-header">
+      <a class="text-link" href="../posts.html">All posts</a>
+      <p class="eyebrow">Chip design / Tapeout</p>
+      <!-- EDIT: Replace this title, summary, and date for every new post. -->
+      <h1 id="post-title">My first tapeout<span class="accent">.</span></h1>
+      <p class="post-meta">Paul (Yi-Chia) Chen · Draft · Add publication date</p>
+    </header>
+
+    <figure class="post-figure">
+      <!-- EDIT: Replace src with ../assets/your-image.jpg and describe the real image in alt. -->
+      <img src="../assets/post-image-placeholder.svg" width="1200" height="675" alt="Placeholder for a chip layout image or team photo; no actual chip layout is shown.">
+      <!-- EDIT: Replace this caption with what the image shows and any image credit. -->
+      <figcaption>Image placeholder — add your chip layout rendering or a team photo, then update this caption.</figcaption>
+    </figure>
+
+    <div class="post-body">
+      <!-- EDIT: Keep the article as a sequence of paragraphs. Duplicate a p block to add more text. -->
+      <p>My first tapeout was an Intel 16 nm chip we built for USC’s Advanced Chip Design and Tapeout class. Our six-person team designed a BERT-layer accelerator, and I led the team through the RTL-to-GDS flow and gate-level verification.</p>
+
+      <p>The accelerator supports configurable 4-, 8-, and 16-bit QKV datapaths to explore the tradeoffs between numerical precision and energy efficiency. We took the design through implementation and SDF-annotated gate-level simulation, achieving timing closure at 1 GHz.</p>
+
+      <p>As course teaching assistants, we also aggregated all of the students’ designs into a single top-level chip. We connected the blocks using a simple star network and completed the implementation of the integrated chip.</p>
+
+      <p>The top-down approach brought its own challenges. In particular, clock insertion delays were imbalanced across the different blocks, making chip-level clocking and timing closure difficult. Those integration challenges helped motivate our later <a href="https://arxiv.org/abs/2512.10089">Chipstitch</a> line of work on scalable, cost-efficient silicon prototyping.</p>
+
+      <!-- OPTIONAL: Add more paragraphs, an image, or team acknowledgments here. -->
+      <div class="post-end"><a class="text-link" href="../posts.html">Back to all posts</a></div>
+    </div>
+  </article>
+</main>
+<footer class="site-footer wrap">
+  <div><a class="footer-name" href="../index.html">Paul (Yi-Chia) Chen</a><p>Computer architecture · Compilers · Silicon</p><p class="footer-email">chenpaul [at] usc [dot] edu</p></div>
+  <div class="footer-links"><a href="https://github.com/pacchen">GitHub</a><a href="https://www.linkedin.com/in/paul-chen-chen">LinkedIn</a></div>
+  <p class="colophon">© 2026 Paul Chen</p>
+</footer>
+</body>
+</html>
