@@ -5,7 +5,7 @@ A static, four-page academic website for GitHub Pages. No installation or build 
 ## Publish on GitHub
 
 1. Create a public repository named **pacchen.github.io** under the `pacchen` account, or use another repository name for a project site.
-2. Upload `index.html`, `about.html`, `publications.html`, `posts.html`, the `posts` folder, the entire `assets` folder, and `.nojekyll` to the repository root. Keep the folder structure intact.
+2. Upload `index.html`, `about.html`, `publications.html`, `posts.html`, the `posts` folder, the `assets`, `images`, and `files` folders, and `.nojekyll` to the repository root. Keep the folder structure intact.
 3. In **Settings > Pages**, select **Deploy from a branch**, then `main` and `/ (root)`, and save.
 4. GitHub displays the live website address when deployment finishes.
 
@@ -14,16 +14,26 @@ All internal links are relative and work under a repository subpath.
 ## Pages and assets
 
 - **index.html:** concise Home introduction, the two latest publication previews, a Posts preview, and professional links.
-- **about.html:** detailed introduction, photo placeholder, resume button, education, teaching, and experience.
+- **about.html:** detailed introduction, personal photo, resume button, education, teaching, and experience.
 - **publications.html:** publication titles, authors, venues, and paper links.
 - **posts.html:** Posts index, currently listing “My first tapeout.”
-- **posts/my-first-tapeout.html:** the full tapeout post, dated October 16, 2026, with a chip image placeholder.
-- **assets/Paul-Chen-Resume.pdf:** a two-page public resume prepared from the supplied resume, omitting under-review papers and related submission details. Your original source file is unchanged.
-- **assets/portrait-placeholder.svg:** replace with a personal photo and update the image source, alternative text, and dimensions in about.html. A portrait around 600 x 750 pixels works well.
+- **posts/my-first-tapeout.html:** the full tapeout post, dated November 2026, with the supplied chip die photograph, displayed at a maximum of 240 px, plus the bench photo. The post records sending the chip to Intel in February 2025 and receiving it back in late 2025.
+- **files/Paul-Chen-Resume.pdf:** your uploaded files/Paul-Chen-Resume-website.pdf, copied byte-for-byte without changes, as requested.
+- **images/paul-chen.jpg:** browser-compatible JPEG copy of your supplied personal photo, used on About Me.
+- **images/tapeout-bench.jpg:** supplied bench photograph with its orientation normalized for browsers.
+- **images/chip-die.jpg:** supplied 240 x 240 chip die photograph, used in the post and listing previews without enlarging beyond its native resolution.
+- **images/post-image-placeholder.svg:** retained for the reusable post template.
 - **assets/style.css:** Georgia for titles and Arial for body text. Main heading sizes: 56, 36, 24 px; smaller h4 item titles use 16 px. Body sizes: 16, 14 px. Header name uses Georgia.
 - **assets/main.js:** reversible slide-in/slide-out transitions for the Home introduction, publications preview, and Posts preview. Respects reduced-motion preferences and keeps content available without JavaScript.
 
 The website uses a plain-text Georgia name in the header and no logo or branded favicon. Links use underlines rather than diagonal arrows. The footer displays chenpaul [at] usc [dot] edu without a location. The website ZIP contains only publishing files and this guide; earlier logo explorations remain separate.
+
+## Folder organization
+
+- `assets/`: styles and scripts.
+- `images/`: website images and reusable image placeholders.
+- `images/originals/`: untouched original photo uploads, kept locally and excluded from the upload ZIP.
+- `files/`: the linked resume and the original website resume upload. The upload ZIP includes only the linked copy.
 
 ## Content notes
 

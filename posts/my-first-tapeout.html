@@ -26,12 +26,12 @@
       <a class="text-link" href="../posts.html">All posts</a>
       <p class="eyebrow">Chip design / Tapeout</p>
       <h1 id="post-title">My first tapeout<span class="accent">.</span></h1>
-      <p class="post-meta">Paul (Yi-Chia) Chen · <time datetime="2026-10-16">October 16, 2026</time></p>
+      <p class="post-meta">Paul (Yi-Chia) Chen · <time datetime="2026-11">November 2026</time></p>
     </header>
 
-    <figure class="post-figure">
-      <img src="../assets/post-image-placeholder.svg" width="1200" height="675" alt="Placeholder for a chip layout image or team photo; no actual chip layout is shown.">
-      <figcaption>Chip layout image to be added.</figcaption>
+    <figure class="post-figure post-figure--die">
+      <img src="../images/chip-die.jpg" width="240" height="240" alt="Die photograph showing the integrated chip blocks.">
+      <figcaption>Chip die photograph.</figcaption>
     </figure>
 
     <div class="post-body">
@@ -40,6 +40,13 @@
       <p>The accelerator supports configurable 4-, 8-, and 16-bit QKV datapaths to explore the tradeoffs between numerical precision and energy efficiency. We took the design through implementation and SDF-annotated gate-level simulation, achieving timing closure at 1 GHz.</p>
 
       <p>As course teaching assistants, we also aggregated all of the students’ designs into a single top-level chip. We connected the blocks using a simple star network and completed the implementation of the integrated chip.</p>
+
+      <p>We sent the completed chip to Intel in February 2025 and received the fabricated chips back in late 2025.</p>
+
+      <figure class="post-figure post-figure--bench">
+        <img src="../images/tapeout-bench.jpg" width="4284" height="5712" alt="Bench setup with a chip carrier board, oscilloscope, and connected test equipment." loading="lazy">
+        <figcaption>Our bench setup with the chip carrier board and oscilloscope.</figcaption>
+      </figure>
 
       <p>The top-down approach brought its own challenges. In particular, clock insertion delays were imbalanced across the different blocks, making chip-level clocking and timing closure difficult. Those integration challenges helped motivate our later <a href="https://arxiv.org/abs/2512.10089">Chipstitch</a> line of work on scalable, cost-efficient silicon prototyping.</p>
 

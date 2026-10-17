@@ -13,7 +13,7 @@ Both the template and real articles are one folder below the site root, so the `
 The HTML comments mark the fields to edit:
 
 - Browser title and description near the top.
-- Article title and publication date. Follow the first post's `<time datetime="2026-10-16">October 16, 2026</time>` pattern, replacing both values with your date.
+- Article title and publication date. Use `<time datetime="2026-11">November 2026</time>` for a month-only date, or a complete date such as `<time datetime="2026-11-01">November 1, 2026</time>`, replacing both values with your date.
 - Image source, image description (`alt`), and caption.
 - Article paragraphs and any team acknowledgments.
 - Remove the visible template notice before publishing.
@@ -22,14 +22,14 @@ To add text, copy a `<p>...</p>` block. To add another image, copy the `<figure 
 
 ## 3. Add your image
 
-Place the image in `assets`, for example `assets/next-post.jpg`. In the copied article, use:
+Place the image in `images`, for example `images/next-post.jpg`. In the copied article, use:
 
 ```html
-<img src="../assets/next-post.jpg" width="1200" height="675"
+<img src="../images/next-post.jpg" width="1200" height="675"
      alt="Describe the image shown here.">
 ```
 
-Set width and height to the actual image dimensions. The layout scales it to fit. Edit the caption beneath it. The first tapeout post still uses a clearly labeled image placeholder, which you can replace the same way.
+Set width and height to the actual image dimensions. The layout scales it to fit. Edit the caption beneath it. The first tapeout post uses your supplied 240 x 240 die photo. Its `post-figure--die` class keeps it at native size; leave this class off larger photos.
 
 ## 4. Update the Posts listing
 
@@ -40,7 +40,7 @@ For example:
 ```html
 <article class="post-list-item">
   <a href="posts/my-next-post.html" aria-label="Read My next post">
-    <img src="assets/next-post.jpg" width="1200" height="675"
+    <img src="images/next-post.jpg" width="1200" height="675"
          alt="Describe the image.">
   </a>
   <div>
