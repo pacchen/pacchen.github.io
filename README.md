@@ -17,11 +17,11 @@ All internal links are relative and work under a repository subpath.
 - **about.html:** detailed introduction, personal photo, resume button, education, teaching, and experience.
 - **publications.html:** publication titles, authors, venues, and paper links.
 - **posts.html:** Posts index, currently listing “My first tapeout.”
-- **posts/my-first-tapeout.html:** the full tapeout post, dated November 2026, with the supplied chip die photograph, displayed at a maximum of 240 px, plus the bench photo. The post records sending the chip to Intel in February 2025 and receiving it back in late 2025.
+- **posts/my-first-tapeout.html:** the full tapeout post, dated November 2026, with the supplied chip die photograph, displayed at a maximum of 100 px, plus the bench photo. The post records sending the chip to Intel in February 2025 and receiving it back in late 2025.
 - **files/Paul-Chen-Resume.pdf:** your uploaded files/Paul-Chen-Resume-website.pdf, copied byte-for-byte without changes, as requested.
 - **images/paul-chen.jpg:** browser-compatible JPEG copy of your supplied personal photo, used on About Me.
 - **images/tapeout-bench.jpg:** supplied bench photograph with its orientation normalized for browsers.
-- **images/chip-die.jpg:** supplied 240 x 240 chip die photograph, used in the post and listing previews without enlarging beyond its native resolution.
+- **images/chip-die.jpg:** supplied 240 x 240 chip die photograph, displayed at 100 px in the post and up to 240 px in listing previews.
 - **images/post-image-placeholder.svg:** retained for the reusable post template.
 - **assets/style.css:** Georgia for titles and Arial for body text. Main heading sizes: 56, 36, 24 px; smaller h4 item titles use 16 px. Body sizes: 16, 14 px. Header name uses Georgia.
 - **assets/main.js:** reversible slide-in/slide-out transitions for the Home introduction, publications preview, and Posts preview. Respects reduced-motion preferences and keeps content available without JavaScript.

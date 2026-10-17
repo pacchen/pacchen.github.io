@@ -176,8 +176,8 @@ nav a[aria-current] { color:var(--green); text-decoration:underline; text-decora
 .post-list-item .post-meta { margin-top:0; }
 .post-list-item h3 { margin-block:10px 14px; }
 
-/* Keep the small die photograph at its native resolution. */
-.post-figure--die { width:min(100%,240px); margin:32px auto; }
+/* Display the die photo at 100 px without enlarging it. */
+.post-figure--die { width:min(100%,100px); margin:32px auto; }
 .post-figure--die figcaption { text-align:center; }
 .post-list-item > a { display:block; width:min(100%,240px); }
 
