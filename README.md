@@ -17,7 +17,7 @@ All internal links are relative and work under a repository subpath.
 - **about.html:** detailed introduction, personal photo, resume button, education, teaching, and experience.
 - **publications.html:** publication titles, authors, venues, and paper links.
 - **posts.html:** Posts index, currently listing “My first tapeout.”
-- **posts/my-first-tapeout.html:** the full tapeout post, dated November 2026, with the supplied chip die photograph, displayed at a maximum of 100 px, plus the bench photo. The post records sending the chip to Intel in February 2025 and receiving it back in late 2025.
+- **posts/my-first-tapeout.html:** the full tapeout post, dated Jan 2026, with the supplied chip die photograph, displayed at a maximum of 100 px, plus the bench photo. The post records sending the chip to Intel in February 2025 and receiving it back in late 2025.
 - **files/Paul-Chen-Resume.pdf:** your uploaded files/Paul-Chen-Resume-website.pdf, copied byte-for-byte without changes, as requested.
 - **images/paul-chen.jpg:** browser-compatible JPEG copy of your supplied personal photo, used on About Me.
 - **images/tapeout-bench.jpg:** supplied bench photograph with its orientation normalized for browsers.

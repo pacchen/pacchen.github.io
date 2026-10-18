@@ -30,7 +30,7 @@
       <p class="eyebrow">Chip design / Tapeout</p>
       <!-- EDIT: Replace this title, summary, and date for every new post. -->
       <h1 id="post-title">My first tapeout<span class="accent">.</span></h1>
-      <p class="post-meta">Paul (Yi-Chia) Chen · Draft · Add publication date</p>
+      <p class="post-meta">Paul (Yi-Chia) Chen · <time datetime="2026-01">Jan 2026</time></p>
     </header>
 
     <figure class="post-figure">
@@ -43,6 +43,8 @@
     <div class="post-body">
       <!-- EDIT: Keep the article as a sequence of paragraphs. Duplicate a p block to add more text. -->
       <p>My first tapeout was an Intel 16 nm chip we built for USC’s Advanced Chip Design and Tapeout class. Our six-person team designed a BERT-layer accelerator, and I led the team through the RTL-to-GDS flow and gate-level verification.</p>
+
+      <p>Our accelerator design was inspired by Keller et al.’s <a href="https://research.nvidia.com/publication/2022-06_17-956-topsw-deep-learning-inference-accelerator-vector-scaled-4-bit">A 17–95.6 TOPS/W Deep Learning Inference Accelerator with Per-Vector Scaled 4-bit Quantization for Transformers in 5nm</a>, presented at the 2022 Symposium on VLSI Technology and Circuits.</p>
 
       <p>The accelerator supports configurable 4-, 8-, and 16-bit QKV datapaths to explore the tradeoffs between numerical precision and energy efficiency. We took the design through implementation and SDF-annotated gate-level simulation, achieving timing closure at 1 GHz.</p>
 

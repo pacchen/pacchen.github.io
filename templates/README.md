@@ -13,7 +13,7 @@ Both the template and real articles are one folder below the site root, so the `
 The HTML comments mark the fields to edit:
 
 - Browser title and description near the top.
-- Article title and publication date. Use `<time datetime="2026-11">November 2026</time>` for a month-only date, or a complete date such as `<time datetime="2026-11-01">November 1, 2026</time>`, replacing both values with your date.
+- Article title and publication date. Use `<time datetime="2026-01">Jan 2026</time>` for a month-only date, or a complete date such as `<time datetime="2026-01-01">January 1, 2026</time>`, replacing both values with your date.
 - Image source, image description (`alt`), and caption.
 - Article paragraphs and any team acknowledgments.
 - Remove the visible template notice before publishing.
